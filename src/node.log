@@ -1,2 +1,10 @@
 Puerto establecido en: 3000/
 Base de Datos conectada/
+Usuario con IP: ::ffff:127.0.0.1se ha conectado/
+Conectado con sockets. Conectados: 1 2022-03-14 11:49:01 AM/
+Ha ocurrido el siguiente error (endpoint /login): Error: ER_NO_SUCH_USER: The user specified as a definer ('positivamente'@'%') does not exist 2022-03-14 11:49:23 AM/
+Desconectado de sockets. Conectados: 0 2022-03-14 11:50:18 AM/
+Usuario con IP: ::1se ha conectado/
+Conectado con sockets. Conectados: 1 2022-03-14 11:50:19 AM/
+object/
+Clave incorrecta: admin@admin.com 2022-03-14 11:54:49 AM/
