@@ -1,5 +1,10 @@
 # Api Rest for the project positively
 
+## Development technologies
+
+- NodeJs
+- WebSockets
+
 ## Installation
 
 1. Clone repository
