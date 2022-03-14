@@ -1,6 +1,21 @@
 Puerto establecido en: 3000/
 Base de Datos conectada/
 Usuario con IP: ::1se ha conectado/
-Conectado con sockets. Conectados: 1 2022-03-14 12:21:36 PM/
+Conectado con sockets. Conectados: 1 2022-03-14 12:23:22 PM/
+Desconectado de sockets. Conectados: 0 2022-03-14 12:23:25 PM/
+Usuario con IP: ::1se ha conectado/
+Conectado con sockets. Conectados: 1 2022-03-14 12:23:25 PM/
 object/
-Clave incorrecta: admin@admin.com 2022-03-14 12:22:01 PM/
+Clave incorrecta: admin@admin.com 2022-03-14 12:23:34 PM/
+object/
+Clave incorrecta: admin@admin.com 2022-03-14 12:23:39 PM/
+object/
+Clave incorrecta: admin@admin.com 2022-03-14 12:23:52 PM/
+object/
+Login exitoso: admin@admin.com 2022-03-14 12:25:14 PM/
+{
+  fechaInicial: '2020-01-01',
+  fechaFinal: '2020-12-31',
+  id_p: 0,
+  asistencia: -1
+}/

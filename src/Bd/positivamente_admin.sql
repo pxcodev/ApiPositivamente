@@ -357,9 +357,9 @@ CREATE TABLE `solicitudes` (
 --
 
 INSERT INTO `solicitudes` (`id`, `correo`, `nivel`, `token`, `estado`, `momento`) VALUES
-(3, 'admin@admin.com', 1, 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjb3IiOiJhZG1pbkBhZG1pbi5jb20iLCJpbmkiOjE1ODM5NTM4MDEsImV4cCI6MTU4Mzk1NDcwMX0.UnihWr1So-rcvm5Zp8iX3k1i3DJMou20JY4qRVhTFM0', 'Completada', 8388607),
-(50, 'gestor@gestor.com', 2, 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjb3IiOiJnZXN0b3JAZ2VzdG9yLmNvbSIsImluaSI6MTU5MzUyNTcxNywiZXhwIjoxNTkzNTI2NjE3fQ.GpHViC22EOgUWDfaBgh_kSpAcyRDr0XbL3aJeA23Ceg', 'Completada', 8388607),
-(51, 'voluntario@voluntario.com', 3, 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjb3IiOiJ2b2x1bnRhcmlvQHZvbHVudGFyaW8uY29tIiwiaW5pIjoxNTkzNTI3OTA2LCJleHAiOjE1OTM1Mjg4MDZ9.T11STuTPdueBbACQUNZwkQDDAXbdKja_Z0ZUslbvPgQ', 'Completada', 8388607);
+(3, 'admin@admin.com', 1, '$2a$12$xzN0.lZPGjQsJvGELTADPO..sku1yPkNkHj5wiN6f/8VJ3ETKo2pm', 'Completada', 8388607),
+(50, 'gestor@gestor.com', 2, '$2a$12$NgVZmX7BPnt8hS.lqxW8BO0MfxOo58Keqx.DWMK7ZK0Pl.46LWJXO', 'Completada', 8388607),
+(51, 'voluntario@voluntario.com', 3, '$2a$12$5dRUXXyGytg0YI9IBljTCO0ERJHEuVbtEGetKhAc6E5vqOraSdpEu', 'Completada', 8388607);
 
 -- --------------------------------------------------------
 
