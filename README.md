@@ -22,7 +22,9 @@ npm install
 | positivamente | W!J9RPah |
 
 5. Create database user with the data contained in the .env.example file.
-6. Start
+6. The .env file has two variables EMAIL and PASSWORD corresponding to the data of a valid gmail email, since it is used to send emails through it.
+   1. In the file src/mail.js you can find all the configuration, between lines 4 and 19 there is the sending configuration.
+7. Start
 
 ```bash
 npm run serve

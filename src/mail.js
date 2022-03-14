@@ -1,19 +1,22 @@
 var nodemailer = require("nodemailer"); // email sender function
 const moment = require("moment");
 exports.sendEmail = async (req, res) => {
-  // var transporter = nodemailer.createTransport({
-  //   host: "smtp.gmail.com",
-  //   port: 465,
-  //   secure: true,
-  //   auth: {
-  //     user: process.env.EMAIL,
-  //     pass: process.env.PASSWORD,
-  //   },
-  // });
+  // Send mails through an existing and valid gmail address
   var transporter = nodemailer.createTransport({
-    host: "localhost",
-    port: 25,
+    host: "smtp.gmail.com",
+    port: 465,
+    secure: true,
+    auth: {
+      user: process.env.EMAIL,
+      pass: process.env.PASSWORD,
+    },
   });
+  // Send mail through a local service
+
+  // var transporter = nodemailer.createTransport({
+  //   host: "localhost",
+  //   port: 25,
+  // });
   let OpcionesCorreo = {
     from: `'Proyecto Positivamente' <${process.env.EMAIL}>`,
     to: req.to,
